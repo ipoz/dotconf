@@ -1,0 +1,29 @@
+[user]
+	name = ipoz
+	email = rafal@ipoz.eu
+[alias]
+    st = status
+    ci = commit
+    br = branch -a
+    ll = log --graph --format=medium
+    co = checkout
+[log]
+    date = iso
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+
+[format]
+    pretty = format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cd) %C(bold blue)<%an>%Creset'
+[core]
+    autocrlf = input
+	editor = vim
+[apply]
+    whitespace = nowarn
+[branch]
+    autosetuprebase = always
+[rerere]
+    enabled = 1
+[rebase]
+    stat = true
